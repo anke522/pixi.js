@@ -792,7 +792,7 @@ export default class Graphics extends Container
     /**
      * Renders the object using the WebGL renderer
      *
-     * @private
+     * @protected
      * @param {PIXI.Renderer} renderer - The renderer
      */
     _render(renderer)
@@ -951,7 +951,7 @@ export default class Graphics extends Container
     /**
      * Retrieves the bounds of the graphic shape as a rectangle object
      *
-     * @private
+     * @protected
      */
     _calculateBounds()
     {

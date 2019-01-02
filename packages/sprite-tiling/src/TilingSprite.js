@@ -143,7 +143,7 @@ export default class TilingSprite extends Sprite
     /**
      * Renders the object using the WebGL renderer
      *
-     * @private
+     * @protected
      * @param {PIXI.Renderer} renderer - The renderer
      */
     _render(renderer)
@@ -166,7 +166,7 @@ export default class TilingSprite extends Sprite
     /**
      * Updates the bounds of the tiling sprite.
      *
-     * @private
+     * @protected
      */
     _calculateBounds()
     {

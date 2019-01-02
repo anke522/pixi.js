@@ -555,7 +555,7 @@ export default class Container extends DisplayObject
     /**
      * To be overridden by the subclasses.
      *
-     * @private
+     * @protected
      * @param {PIXI.Renderer} renderer - The renderer
      */
     _render(renderer) // eslint-disable-line no-unused-vars

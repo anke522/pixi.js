@@ -57,7 +57,6 @@ export default class RenderTextureSystem extends System
 
     /**
      * Bind the current render texture
-     * @private
      * @param {PIXI.RenderTexture} renderTexture
      * @param {PIXI.Rectangle} sourceFrame
      * @param {PIXI.Rectangle} destinationFrame

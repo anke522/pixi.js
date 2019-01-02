@@ -724,7 +724,7 @@ export default class GraphicsGeometry extends BatchGeometry
 
     /**
      * Update the local bounds of the object. Expensive to use performance-wise.
-     * @private
+     * @protected
      */
     calculateBounds()
     {
