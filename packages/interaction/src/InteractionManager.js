@@ -214,7 +214,7 @@ export default class InteractionManager extends EventEmitter
          * values, objects are handled as dictionaries of CSS values for interactionDOMElement,
          * and functions are called instead of changing the CSS.
          * Default CSS cursor values are provided for 'default' and 'pointer' modes.
-         * @member {Object.<string, (string|Function|Object.<string, string>)>}
+         * @member {Object.<string, Object>}
          */
         this.cursorStyles = {
             default: 'inherit',

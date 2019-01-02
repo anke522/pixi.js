@@ -119,13 +119,6 @@ export default class AbstractRenderer extends EventEmitter
         // autoResize is deprecated, provides fallback support
 
         /**
-         * Tracks the blend modes useful for this renderer.
-         *
-         * @member {object<string, mixed>}
-         */
-        this.blendModes = null;
-
-        /**
          * The value of the preserveDrawingBuffer flag affects whether or not the contents of
          * the stencil buffer is retained after rendering.
          *
