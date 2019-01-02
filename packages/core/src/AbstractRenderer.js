@@ -149,7 +149,7 @@ export default class AbstractRenderer extends EventEmitter
          * The background color as a number.
          *
          * @member {number}
-         * @private
+         * @protected
          */
         this._backgroundColor = 0x000000;
 
@@ -157,7 +157,7 @@ export default class AbstractRenderer extends EventEmitter
          * The background color as an [R, G, B] array.
          *
          * @member {number[]}
-         * @private
+         * @protected
          */
         this._backgroundColorRgba = [0, 0, 0, 0];
 
@@ -165,7 +165,7 @@ export default class AbstractRenderer extends EventEmitter
          * The background color as a string.
          *
          * @member {string}
-         * @private
+         * @protected
          */
         this._backgroundColorString = '#000000';
 
@@ -175,7 +175,7 @@ export default class AbstractRenderer extends EventEmitter
          * This temporary display object used as the parent of the currently being rendered item.
          *
          * @member {PIXI.DisplayObject}
-         * @private
+         * @protected
          */
         this._tempDisplayObjectParent = new Container();
 
@@ -183,7 +183,7 @@ export default class AbstractRenderer extends EventEmitter
          * The last root object that the renderer tried to render.
          *
          * @member {PIXI.DisplayObject}
-         * @private
+         * @protected
          */
         this._lastObjectRendered = this._tempDisplayObjectParent;
 

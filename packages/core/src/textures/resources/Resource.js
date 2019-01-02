@@ -42,7 +42,7 @@ export default class Resource
          * and not cleaning up resources that were created
          * externally.
          * @member {boolean}
-         * @private
+         * @protected
          */
         this.internal = false;
 

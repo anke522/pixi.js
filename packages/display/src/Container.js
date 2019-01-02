@@ -71,7 +71,7 @@ export default class Container extends DisplayObject
     /**
      * Overridable method that can be used by Container subclasses whenever the children array is modified
      *
-     * @private
+     * @protected
      */
     onChildrenChange()
     {
@@ -491,7 +491,7 @@ export default class Container extends DisplayObject
     /**
      * Render the object using the WebGL renderer and advanced features.
      *
-     * @private
+     * @protected
      * @param {PIXI.Renderer} renderer - The renderer
      */
     renderAdvanced(renderer)

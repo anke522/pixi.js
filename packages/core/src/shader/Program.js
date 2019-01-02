@@ -60,7 +60,7 @@ class Program
     /**
      * Extracts the data for a buy creating a small test program
      * or reading the src directly.
-     * @private
+     * @protected
      *
      * @param {string} [vertexSrc] - The source of the vertex shader.
      * @param {string} [fragmentSrc] - The source of the fragment shader.

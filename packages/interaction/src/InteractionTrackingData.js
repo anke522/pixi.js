@@ -9,6 +9,7 @@ export default class InteractionTrackingData
 {
     /**
      * @param {number} pointerId - Unique pointer id of the event
+     * @private
      */
     constructor(pointerId)
     {
@@ -38,6 +39,7 @@ export default class InteractionTrackingData
      * Unique pointer id of the event
      *
      * @readonly
+     * @private
      * @member {number}
      */
     get pointerId()
@@ -48,6 +50,7 @@ export default class InteractionTrackingData
     /**
      * State of the tracking data, expressed as bit flags
      *
+     * @private
      * @member {number}
      */
     get flags()
@@ -63,6 +66,7 @@ export default class InteractionTrackingData
     /**
      * Is the tracked event inactive (not over or down)?
      *
+     * @private
      * @member {number}
      */
     get none()
@@ -73,6 +77,7 @@ export default class InteractionTrackingData
     /**
      * Is the tracked event over the DisplayObject?
      *
+     * @private
      * @member {boolean}
      */
     get over()
@@ -88,6 +93,7 @@ export default class InteractionTrackingData
     /**
      * Did the right mouse button come down in the DisplayObject?
      *
+     * @private
      * @member {boolean}
      */
     get rightDown()
@@ -103,6 +109,7 @@ export default class InteractionTrackingData
     /**
      * Did the left mouse button come down in the DisplayObject?
      *
+     * @private
      * @member {boolean}
      */
     get leftDown()

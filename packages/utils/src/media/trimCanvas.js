@@ -3,7 +3,6 @@
  *
  * @memberof PIXI
  * @function trimCanvas
- * @private
  * @param {HTMLCanvasElement} canvas - the canvas to trim
  * @returns {object} Trim data
  */

@@ -39,7 +39,7 @@ export default class TextureMatrix
 
         /**
          * @member {number} Tracks Texture frame changes
-         * @private
+         * @protected
          */
         this._updateID = -1;
 

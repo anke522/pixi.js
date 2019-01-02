@@ -71,6 +71,7 @@ class FilterState
 
     /**
      * clears the state
+     * @private
      */
     clear()
     {
@@ -434,7 +435,7 @@ export default class FilterSystem extends System
      *
      * TODO move to a separate class could be on renderer?
      *
-     * @private
+     * @protected
      * @param {number} minWidth - The minimum width of the render texture in real pixels.
      * @param {number} minHeight - The minimum height of the render texture in real pixels.
      * @param {number} [resolution=1] - The resolution of the render texture.

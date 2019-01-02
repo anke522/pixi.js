@@ -12,20 +12,23 @@ export default class GLProgram
          * The shader program
          *
          * @member {WebGLProgram}
+         * @private
          */
         this.program = program;
 
         /**
          * holds the uniform data which contains uniform locations
          * and current uniform values used for caching and preventing unneeded GPU commands
-         * @type {Object}
+         * @member {Object}
+         * @private
          */
         this.uniformData = uniformData;
 
         /**
          * uniformGroups holds the various upload functions for the shader. Each uniform group
          * and program have a unique upload function generated.
-         * @type {Object}
+         * @member {Object}
+         * @private
          */
         this.uniformGroups = {};
     }
@@ -33,6 +36,7 @@ export default class GLProgram
     /**
      * Destroys this program
      * TODO
+     * @private
      */
     destroy()
     {

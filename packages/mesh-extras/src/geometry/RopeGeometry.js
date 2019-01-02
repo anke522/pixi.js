@@ -26,7 +26,7 @@ export default class RopeGeometry extends MeshGeometry
             new Float32Array(points.length * 4),
             new Uint16Array((points.length - 1) * 6));
 
-        /*
+        /**
          * @member {PIXI.Point[]} An array of points that determine the rope
          */
         this.points = points;

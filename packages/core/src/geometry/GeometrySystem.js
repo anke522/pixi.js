@@ -48,7 +48,7 @@ export default class GeometrySystem extends System
     /**
      * Sets up the renderer context and necessary buffers.
      *
-     * @private
+     * @protected
      */
     contextChange()
     {
@@ -122,7 +122,7 @@ export default class GeometrySystem extends System
 
     /**
      * Binds geometry so that is can be drawn. Creating a Vao if required
-     * @private
+     * @protected
      * @param {PIXI.Geometry} geometry instance of geometry to bind
      * @param {PIXI.Shader} shader instance of shader to bind
      */
@@ -177,7 +177,7 @@ export default class GeometrySystem extends System
 
     /**
      * Update buffers
-     * @private
+     * @protected
      */
     updateBuffers()
     {
@@ -223,7 +223,7 @@ export default class GeometrySystem extends System
 
     /**
      * Check compability between a geometry and a program
-     * @private
+     * @protected
      * @param {PIXI.Geometry} geometry - Geometry instance
      * @param {PIXI.Program} program - Program instance
      */
@@ -248,7 +248,7 @@ export default class GeometrySystem extends System
      * @param {PIXI.Geometry} geometry to get signature from
      * @param {PIXI.Program} prgram to test geometry against
      * @returns {String} Unique signature of the geometry and program
-     * @private
+     * @protected
      */
     getSignature(geometry, program)
     {
@@ -270,7 +270,7 @@ export default class GeometrySystem extends System
 
     /**
      * Creates a Vao with the same structure as the geometry and stores it on the geometry.
-     * @private
+     * @protected
      * @param {PIXI.Geometry} geometry - Instance of geometry to to generate Vao for
      * @param {PIXI.Program} program - Instance of program
      */
@@ -374,7 +374,7 @@ export default class GeometrySystem extends System
     /**
      * Activate vertex array object
      *
-     * @private
+     * @protected
      * @param {PIXI.Geometry} geometry - Geometry instance
      * @param {PIXI.Program} program - Shader program instance
      */
@@ -481,7 +481,7 @@ export default class GeometrySystem extends System
 
     /**
      * Unbind/reset everything
-     * @private
+     * @protected
      */
     unbind()
     {

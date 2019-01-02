@@ -12,7 +12,7 @@ export default class FramebufferSystem extends System
     /**
      * Sets up the renderer context and necessary buffers.
      *
-     * @private
+     * @protected
      */
     contextChange()
     {
@@ -162,7 +162,7 @@ export default class FramebufferSystem extends System
     /**
      * Initialize framebuffer
      *
-     * @private
+     * @protected
      * @param {PIXI.Framebuffer} framebuffer
      */
     initFramebuffer(framebuffer)
@@ -186,7 +186,7 @@ export default class FramebufferSystem extends System
     /**
      * Resize the framebuffer
      *
-     * @private
+     * @protected
      * @param {PIXI.Framebuffer} framebuffer
      */
     resizeFramebuffer(framebuffer)
@@ -203,7 +203,7 @@ export default class FramebufferSystem extends System
     /**
      * Update the framebuffer
      *
-     * @private
+     * @protected
      * @param {PIXI.Framebuffer} framebuffer
      */
     updateFramebuffer(framebuffer)

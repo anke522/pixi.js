@@ -114,7 +114,7 @@ export default class InteractionManager extends EventEmitter
         /**
          * The DOM element to bind to.
          *
-         * @private
+         * @protected
          * @member {HTMLElement}
          */
         this.interactionDOMElement = null;
@@ -135,7 +135,7 @@ export default class InteractionManager extends EventEmitter
         /**
          * Have events been attached to the dom element?
          *
-         * @private
+         * @protected
          * @member {boolean}
          */
         this.eventsAdded = false;
@@ -143,7 +143,7 @@ export default class InteractionManager extends EventEmitter
         /**
          * Is the mouse hovering over the renderer?
          *
-         * @private
+         * @protected
          * @member {boolean}
          */
         this.mouseOverRenderer = false;
@@ -982,7 +982,7 @@ export default class InteractionManager extends EventEmitter
      * specified function on all interactive objects it finds. It will also take care of hit
      * testing the interactive objects and passes the hit across in the function.
      *
-     * @private
+     * @protected
      * @param {PIXI.interaction.InteractionEvent} interactionEvent - event containing the point that
      *  is tested for collision
      * @param {PIXI.Container|PIXI.Sprite|PIXI.TilingSprite} displayObject - the displayObject

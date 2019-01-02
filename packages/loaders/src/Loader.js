@@ -97,6 +97,7 @@ export default class Loader extends ResourceLoader
 
     /**
      * Destroy the loader, removes references.
+     * @private
      */
     destroy()
     {

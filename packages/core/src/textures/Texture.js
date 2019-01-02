@@ -108,7 +108,7 @@ export default class Texture extends EventEmitter
          * The WebGL UV data cache. Can be used as quad UV
          *
          * @member {PIXI.TextureUvs}
-         * @private
+         * @protected
          */
         this._uvs = DEFAULT_UVS;
 
@@ -169,7 +169,7 @@ export default class Texture extends EventEmitter
          * Call updateUvs() to increment it.
          *
          * @member {number}
-         * @private
+         * @protected
          */
 
         this._updateID = 0;
@@ -196,7 +196,7 @@ export default class Texture extends EventEmitter
     /**
      * Called when the base texture is updated
      *
-     * @private
+     * @protected
      * @param {PIXI.BaseTexture} baseTexture - The base texture.
      */
     onBaseTextureUpdated(baseTexture)

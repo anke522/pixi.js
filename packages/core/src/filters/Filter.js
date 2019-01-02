@@ -264,7 +264,7 @@ export default class Filter extends Shader
  *
  * @static
  * @type {object}
- * @private
+ * @protected
  */
 Filter.SOURCE_KEY_MAP = {};
 

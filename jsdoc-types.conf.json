@@ -22,7 +22,8 @@
     "opts": {
         "encoding"      : "utf8",
         "recurse"       : true,
-        "private"       : true,
+        "private"       : false,
+        "protected"     : false,
         "lenient"       : true,
         "destination"   : "./dist/types",
         "template"      :"./node_modules/tsd-jsdoc/dist"

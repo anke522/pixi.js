@@ -204,8 +204,8 @@ export default class Renderer extends AbstractRenderer
         /**
          * The options passed in to create a new WebGL context.
          *
-         * @member {object}
-         * @private
+         * @member {object} context
+         * @protected
          */
         if (options.context)
         {

@@ -79,7 +79,7 @@ export default class DisplayObject extends EventEmitter
          * Used by containers to help sort objects with the same zIndex, by using previous array index as the decider.
          *
          * @member {number}
-         * @private
+         * @protected
          * @readOnly
          */
         this._lastSortedIndex = 0;
@@ -89,7 +89,7 @@ export default class DisplayObject extends EventEmitter
          * A higher value will mean it will be rendered on top of other displayObjects within the same container.
          *
          * @member {number}
-         * @private
+         * @protected
          */
         this._zIndex = 0;
 
@@ -117,7 +117,7 @@ export default class DisplayObject extends EventEmitter
          * The bounds object, this is used to calculate and store the bounds of the displayObject.
          *
          * @member {PIXI.Rectangle}
-         * @private
+         * @protected
          */
         this._bounds = new Bounds();
         this._boundsID = 0;
@@ -129,7 +129,7 @@ export default class DisplayObject extends EventEmitter
          * The original, cached mask of the object.
          *
          * @member {PIXI.Graphics|PIXI.Sprite}
-         * @private
+         * @protected
          */
         this._mask = null;
 
@@ -151,7 +151,7 @@ export default class DisplayObject extends EventEmitter
          * If the object has been destroyed via destroy(). If true, it should not be used.
          *
          * @member {boolean}
-         * @private
+         * @protected
          * @readonly
          */
         this._destroyed = false;
@@ -164,7 +164,7 @@ export default class DisplayObject extends EventEmitter
     }
 
     /**
-     * @private
+     * @protected
      * @member {PIXI.DisplayObject}
      */
     get _tempDisplayObjectParent()

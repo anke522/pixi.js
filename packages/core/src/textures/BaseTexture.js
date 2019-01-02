@@ -136,7 +136,7 @@ export default class BaseTexture extends EventEmitter
          * Global unique identifier for this BaseTexture
          *
          * @member {string}
-         * @private
+         * @protected
          */
         this.uid = uid();
 
@@ -144,7 +144,7 @@ export default class BaseTexture extends EventEmitter
          * TODO: fill in description
          *
          * @member {number}
-         * @private
+         * @protected
          */
         this.touched = 0;
 
@@ -170,7 +170,7 @@ export default class BaseTexture extends EventEmitter
         /**
          * Used by TextureSystem to only update texture to the GPU when needed.
          *
-         * @private
+         * @protected
          * @member {number}
          */
         this.dirtyId = 0;
@@ -178,7 +178,7 @@ export default class BaseTexture extends EventEmitter
         /**
          * Used by TextureSystem to only update texture style when needed.
          *
-         * @private
+         * @protected
          * @member {number}
          */
         this.dirtyStyleId = 0;

@@ -76,18 +76,10 @@ export default class BaseRenderTexture extends BaseTexture
         this.valid = true;
 
         /**
-         * A map of renderer IDs to webgl renderTargets
-         *
-         * @private
-         * @member {object<number, WebGLTexture>}
-         */
-        //        this._glRenderTargets = {};
-
-        /**
          * A reference to the canvas render target (we only need one as this can be shared across renderers)
          *
-         * @private
-         * @member {object<number, WebGLTexture>}
+         * @protected
+         * @member {object}
          */
         this._canvasRenderTarget = null;
 

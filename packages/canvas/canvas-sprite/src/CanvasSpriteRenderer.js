@@ -20,7 +20,7 @@ const canvasRenderWorldTransform = new Matrix();
  * Renderer dedicated to drawing and batching sprites.
  *
  * @class
- * @private
+ * @protected
  * @memberof PIXI
  */
 export default class CanvasSpriteRenderer
