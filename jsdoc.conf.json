@@ -45,7 +45,7 @@
     "opts": {
         "encoding"      : "utf8",
         "recurse"       : true,
-        "private"       : true,
+        "private"       : false,
         "lenient"       : true,
         "destination"   : "./dist/docs",
         "template"      : "./node_modules/@pixi/jsdoc-template"
