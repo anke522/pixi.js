@@ -301,7 +301,6 @@ export default class BaseTexture extends EventEmitter
     /**
      * Changes style options of BaseTexture
      *
-     * @param {object} options
      * @param {PIXI.SCALE_MODES} [scaleMode] - pixi scalemode
      * @param {boolean} [mipmap] - enable mipmaps
      * @returns {BaseTexture} this

@@ -12,6 +12,7 @@ export { default as AbstractRenderer } from './AbstractRenderer';
 export { default as FrameBuffer } from './framebuffer/FrameBuffer';
 export { default as CubeTexture } from './textures/CubeTexture';
 export { default as BaseTexture } from './textures/BaseTexture';
+export { default as GLTexture } from './textures/BaseTexture';
 export { default as Texture } from './textures/Texture';
 export { default as TextureMatrix } from './textures/TextureMatrix';
 export { default as RenderTexture } from './renderTexture/RenderTexture';

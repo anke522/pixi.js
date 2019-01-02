@@ -190,7 +190,7 @@ export default class ImageResource extends BaseImageResource
      *
      * @param {PIXI.Renderer} renderer - Renderer to upload to
      * @param {PIXI.BaseTexture} baseTexture - BaseTexture for this resource
-     * @param {PIXI.glCore.Texture} glTexture - GLTexture to use
+     * @param {PIXI.GLTexture} glTexture - GLTexture to use
      */
     upload(renderer, baseTexture, glTexture)
     {

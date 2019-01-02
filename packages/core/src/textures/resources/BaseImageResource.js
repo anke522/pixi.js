@@ -47,7 +47,7 @@ export default class BaseImageResource extends Resource
      * Upload the texture to the GPU.
      * @param {PIXI.Renderer} renderer Upload to the renderer
      * @param {PIXI.BaseTexture} baseTexture Reference to parent texture
-     * @param {PIXI.glCore.GLTexture} glTexture Reference
+     * @param {PIXI.GLTexture} glTexture Reference
      * @param {HTMLImageElement|HTMLCanvasElement|HTMLVideoElement|SVGElement} source (optional)
      */
     upload(renderer, baseTexture, glTexture, source)

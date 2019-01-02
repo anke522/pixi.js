@@ -15,9 +15,8 @@ let UID = 0;
 /**
  * @class
  * @memberof PIXI
- * @extends PIXI.Shader
  */
-class Program
+export default class Program
 {
     /**
      * @param {string} [vertexSrc] - The source of the vertex shader.
@@ -217,5 +216,3 @@ class Program
         return program;
     }
 }
-
-export default Program;

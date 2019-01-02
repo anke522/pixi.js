@@ -205,6 +205,7 @@ export default class Renderer extends AbstractRenderer
          * The options passed in to create a new WebGL context.
          *
          * @member {object} context
+         * @memberof PIXI.Renderer#
          * @protected
          */
         if (options.context)
