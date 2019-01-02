@@ -36,8 +36,8 @@ export default class BlurFilter extends Filter
      * Applies the filter.
      *
      * @param {PIXI.FilterManager} filterManager - The manager.
-     * @param {PIXI.RenderTarget} input - The input target.
-     * @param {PIXI.RenderTarget} output - The output target.
+     * @param {PIXI.RenderTexture} input - The input target.
+     * @param {PIXI.RenderTexture} output - The output target.
      */
     apply(filterManager, input, output, clear)
     {

@@ -41,8 +41,6 @@ export default class TextureSystem extends System
 
     /**
      * Sets up the renderer context and necessary buffers.
-     *
-     * @private
      */
     contextChange()
     {

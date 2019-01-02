@@ -4,7 +4,6 @@ let UID = 0;
 /**
  * @class
  * @memberof PIXI
- * @extends PIXI.UniformGroup
  */
 class UniformGroup
 {

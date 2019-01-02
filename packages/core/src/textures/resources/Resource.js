@@ -128,7 +128,7 @@ export default class Resource
      * This can be overridden to start preloading a resource
      * or do any other prepare step.
      * @protected
-     * @return {Promise} Handle the validate event
+     * @return {Promise<void>} Handle the validate event
      */
     load()
     {

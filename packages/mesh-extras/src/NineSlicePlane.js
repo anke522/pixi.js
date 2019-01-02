@@ -29,7 +29,7 @@ const DEFAULT_BORDER_SIZE = 10;
  * </pre>
  *
  * @class
- * @extends PIXI.Plane
+ * @extends PIXI.SimplePlane
  * @memberof PIXI
  *
  */
@@ -37,10 +37,10 @@ export default class NineSlicePlane extends SimplePlane
 {
     /**
      * @param {PIXI.Texture} texture - The texture to use on the NineSlicePlane.
-     * @param {int} [leftWidth=10] size of the left vertical bar (A)
-     * @param {int} [topHeight=10] size of the top horizontal bar (C)
-     * @param {int} [rightWidth=10] size of the right vertical bar (B)
-     * @param {int} [bottomHeight=10] size of the bottom horizontal bar (D)
+     * @param {number} [leftWidth=10] size of the left vertical bar (A)
+     * @param {number} [topHeight=10] size of the top horizontal bar (C)
+     * @param {number} [rightWidth=10] size of the right vertical bar (B)
+     * @param {number} [bottomHeight=10] size of the bottom horizontal bar (D)
      */
     constructor(texture, leftWidth, topHeight, rightWidth, bottomHeight)
     {

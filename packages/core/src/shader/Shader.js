@@ -5,7 +5,6 @@ import UniformGroup from './UniformGroup';
 /**
  * @class
  * @memberof PIXI
- * @extends PIXI.Shader
  */
 class Shader
 {

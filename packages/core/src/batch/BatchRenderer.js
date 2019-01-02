@@ -105,8 +105,6 @@ export default class BatchRenderer extends ObjectRenderer
 
     /**
      * Sets up the renderer context and necessary buffers.
-     *
-     * @protected
      */
     contextChange()
     {

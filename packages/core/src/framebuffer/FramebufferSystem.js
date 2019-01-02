@@ -11,8 +11,6 @@ export default class FramebufferSystem extends System
 {
     /**
      * Sets up the renderer context and necessary buffers.
-     *
-     * @protected
      */
     contextChange()
     {
@@ -39,7 +37,7 @@ export default class FramebufferSystem extends System
         {
             // TODO caching layer!
 
-            const fbo = framebuffer.glFrameBuffers[this.CONTEXT_UID] || this.initFramebuffer(framebuffer);
+            const fbo = framebuffer.glFramebuffers[this.CONTEXT_UID] || this.initFramebuffer(framebuffer);
 
             gl.bindFramebuffer(gl.FRAMEBUFFER, fbo.framebuffer);
             // make sure all textures are unbound..
@@ -178,7 +176,7 @@ export default class FramebufferSystem extends System
             dirtySize: 0,
         };
 
-        framebuffer.glFrameBuffers[this.CONTEXT_UID] = fbo;
+        framebuffer.glFramebuffers[this.CONTEXT_UID] = fbo;
 
         return fbo;
     }
@@ -210,7 +208,7 @@ export default class FramebufferSystem extends System
     {
         const { gl } = this;
 
-        const fbo = framebuffer.glFrameBuffers[this.CONTEXT_UID];
+        const fbo = framebuffer.glFramebuffers[this.CONTEXT_UID];
 
         // bind the color texture
         const colorTextures = framebuffer.colorTextures;

@@ -47,8 +47,6 @@ export default class GeometrySystem extends System
 
     /**
      * Sets up the renderer context and necessary buffers.
-     *
-     * @protected
      */
     contextChange()
     {

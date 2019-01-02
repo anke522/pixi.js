@@ -30,7 +30,7 @@ export default class ContextSystem extends System
          * @member {object}
          * @readonly
          * @property {WEBGL_draw_buffers} drawBuffers - WebGL v1 extension
-         * @property {WEBKIT_WEBGL_depth_texture} depthTexture - WebGL v1 extension
+         * @property {WEBGL_depth_texture} depthTexture - WebGL v1 extension
          * @property {OES_texture_float} floatTexture - WebGL v1 extension
          * @property {WEBGL_lose_context} loseContext - WebGL v1 extension
          * @property {OES_vertex_array_object} vertexArrayObject - WebGL v1 extension
@@ -57,6 +57,7 @@ export default class ContextSystem extends System
 
     /**
      * Handle the context change event
+     * @param {WebGLRenderingContext} gl new webgl context
      */
     contextChange(gl)
     {

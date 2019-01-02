@@ -3,7 +3,7 @@
  * number of items per frame.
  *
  * @class
- * @memberof PIXI
+ * @memberof PIXI.prepare
  */
 export default class CountLimiter
 {

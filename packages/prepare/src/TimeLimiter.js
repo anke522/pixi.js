@@ -3,7 +3,7 @@
  * number of milliseconds per frame.
  *
  * @class
- * @memberof PIXI
+ * @memberof PIXI.prepare
  */
 export default class TimeLimiter
 {

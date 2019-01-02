@@ -51,6 +51,7 @@ export default class CubeResource extends ArrayResource
 
     /**
      * Upload the resource
+     * @returns {boolean} true is success
      */
     upload(renderer, baseTexture, glTexture)
     {

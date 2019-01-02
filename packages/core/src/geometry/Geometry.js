@@ -55,7 +55,7 @@ export default class Geometry
          * A map of renderer IDs to webgl VAOs
          *
          * @protected
-         * @type {Array<VertexArrayObject>}
+         * @type {Array<OES_vertex_array_object>}
          */
         this.glVertexArrayObjects = {};
 
