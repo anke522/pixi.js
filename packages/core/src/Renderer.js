@@ -55,6 +55,7 @@ export default class Renderer extends AbstractRenderer
      *  (shown if not transparent).
      * @param {string} [options.powerPreference] - Parameter passed to WebGL context, set to "high-performance"
      *  for devices with dual graphics card.
+     * @param {object} [options.context] If WebGL context already exists, all parameters must be taken from it.
      */
     constructor(options = {}, arg2, arg3)
     {
@@ -79,6 +80,7 @@ export default class Renderer extends AbstractRenderer
          * are assigned to each system created.
          * @see https://github.com/GoodBoyDigital/mini-runner
          * @name PIXI.Renderer#runners
+         * @private
          * @type {object}
          * @readonly
          * @property {Runner} destroy - Destroy runner
@@ -203,10 +205,6 @@ export default class Renderer extends AbstractRenderer
 
         /**
          * The options passed in to create a new WebGL context.
-         *
-         * @member {object} context
-         * @memberof PIXI.Renderer#
-         * @protected
          */
         if (options.context)
         {

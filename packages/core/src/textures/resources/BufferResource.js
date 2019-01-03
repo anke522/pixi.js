@@ -1,6 +1,10 @@
 import Resource from './Resource';
 
 /**
+ * @interface SharedArrayBuffer
+ */
+
+/**
  * Buffer resource with data of typed array.
  * @class
  * @extends PIXI.resources.Resource

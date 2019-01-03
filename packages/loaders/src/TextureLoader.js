@@ -5,7 +5,7 @@ import { Texture } from '@pixi/core';
  * Loader plugin for handling Texture resources.
  * @class
  * @memberof PIXI
- * @implements PIXI.LoaderPlugin
+ * @implements PIXI.ILoaderPlugin
  */
 export default class TextureLoader
 {

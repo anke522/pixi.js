@@ -6,7 +6,7 @@ import BitmapText from './BitmapText';
  * bitmap-based fonts suitable for using with {@link PIXI.BitmapText}.
  * @class
  * @memberof PIXI
- * @implements PIXI.LoaderPlugin
+ * @implements PIXI.ILoaderPlugin
  */
 export default class BitmapFontLoader
 {

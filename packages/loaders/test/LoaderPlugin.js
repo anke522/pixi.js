@@ -1,6 +1,6 @@
 const { LoaderPlugin, Loader } = require('../');
 
-describe('PIXI.LoaderPlugin', function ()
+describe('PIXI.ILoaderPlugin', function ()
 {
     it('should contain loader property', function ()
     {

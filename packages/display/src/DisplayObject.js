@@ -80,7 +80,6 @@ export default class DisplayObject extends EventEmitter
          *
          * @member {number}
          * @protected
-         * @readOnly
          */
         this._lastSortedIndex = 0;
 
@@ -152,7 +151,6 @@ export default class DisplayObject extends EventEmitter
          *
          * @member {boolean}
          * @protected
-         * @readonly
          */
         this._destroyed = false;
 
@@ -287,11 +285,11 @@ export default class DisplayObject extends EventEmitter
     /**
      * Calculates the global position of the display object.
      *
-     * @param {PIXI.PointLike} position - The world origin to calculate from.
-     * @param {PIXI.PointLike} [point] - A Point object in which to store the value, optional
+     * @param {PIXI.IPoint} position - The world origin to calculate from.
+     * @param {PIXI.IPoint} [point] - A Point object in which to store the value, optional
      *  (otherwise will create a new Point).
      * @param {boolean} [skipUpdate=false] - Should we skip the update transform.
-     * @return {PIXI.PointLike} A point object representing the position of this object.
+     * @return {PIXI.IPoint} A point object representing the position of this object.
      */
     toGlobal(position, point, skipUpdate = false)
     {
@@ -321,12 +319,12 @@ export default class DisplayObject extends EventEmitter
     /**
      * Calculates the local position of the display object relative to another point.
      *
-     * @param {PIXI.PointLike} position - The world origin to calculate from.
+     * @param {PIXI.IPoint} position - The world origin to calculate from.
      * @param {PIXI.DisplayObject} [from] - The DisplayObject to calculate the global position from.
-     * @param {PIXI.PointLike} [point] - A Point object in which to store the value, optional
+     * @param {PIXI.IPoint} [point] - A Point object in which to store the value, optional
      *  (otherwise will create a new Point).
      * @param {boolean} [skipUpdate=false] - Should we skip the update transform
-     * @return {PIXI.PointLike} A point object representing the position of this object
+     * @return {PIXI.IPoint} A point object representing the position of this object
      */
     toLocal(position, from, point, skipUpdate)
     {
@@ -503,7 +501,7 @@ export default class DisplayObject extends EventEmitter
      * The coordinate of the object relative to the local coordinates of the parent.
      * Assignment by value since pixi-v4.
      *
-     * @member {PIXI.PointLike}
+     * @member {PIXI.IPoint}
      */
     get position()
     {
@@ -519,7 +517,7 @@ export default class DisplayObject extends EventEmitter
      * The scale factor of the object.
      * Assignment by value since pixi-v4.
      *
-     * @member {PIXI.PointLike}
+     * @member {PIXI.IPoint}
      */
     get scale()
     {
@@ -535,7 +533,7 @@ export default class DisplayObject extends EventEmitter
      * The pivot point of the displayObject that it rotates around.
      * Assignment by value since pixi-v4.
      *
-     * @member {PIXI.PointLike}
+     * @member {PIXI.IPoint}
      */
     get pivot()
     {

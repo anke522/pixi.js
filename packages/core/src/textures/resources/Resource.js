@@ -50,6 +50,7 @@ export default class Resource
          * Mini-runner for handling resize events
          *
          * @member {Runner}
+         * @private
          */
         this.onResize = new Runner('setRealSize', 2);
 
@@ -57,6 +58,7 @@ export default class Resource
          * Mini-runner for handling update events
          *
          * @member {Runner}
+         * @private
          */
         this.onUpdate = new Runner('update');
     }

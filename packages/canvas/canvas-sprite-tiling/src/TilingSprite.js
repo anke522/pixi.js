@@ -7,7 +7,7 @@ import { CanvasRenderTarget } from '@pixi/utils';
  *
  * @protected
  * @function _renderCanvas
- * @memberof PIXI.TilingSprite
+ * @memberof PIXI.TilingSprite#
  * @param {PIXI.CanvasRenderer} renderer - a reference to the canvas renderer
  */
 TilingSprite.prototype._renderCanvas = function _renderCanvas(renderer)
