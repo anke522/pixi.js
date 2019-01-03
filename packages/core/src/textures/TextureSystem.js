@@ -33,7 +33,7 @@ export default class TextureSystem extends System
 
         /**
          * List of managed textures
-         * @member {PIXI.BaseTextures[]}
+         * @member {PIXI.BaseTexture[]}
          * @readonly
          */
         this.managedTextures = [];

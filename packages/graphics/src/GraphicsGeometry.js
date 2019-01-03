@@ -271,7 +271,7 @@ export default class GraphicsGeometry extends BatchGeometry
      * @param {PIXI.FillStyle} fillStyle - Defines style of the fill.
      * @param {PIXI.LineStyle} lineStyle - Defines style of the lines.
      * @param {PIXI.Matrix} matrix - Transform applied to the points of the shape.
-     * @return {PIXI.GraphicsGeomery} Returns geometry for chaining.
+     * @return {PIXI.GraphicsGeometry} Returns geometry for chaining.
      */
     drawShape(shape, fillStyle, lineStyle, matrix)
     {
@@ -288,7 +288,7 @@ export default class GraphicsGeometry extends BatchGeometry
      *
      * @param {PIXI.Circle|PIXI.Ellipse|PIXI.Polygon|PIXI.Rectangle|PIXI.RoundedRectangle} shape - The shape object to draw.
      * @param {PIXI.Matrix} matrix - Transform applied to the points of the shape.
-     * @return {PIXI.GraphicsGeomery} Returns geometry for chaining.
+     * @return {PIXI.GraphicsGeometry} Returns geometry for chaining.
      */
     drawHole(shape, matrix)
     {

@@ -55,7 +55,7 @@ export default function deprecated(PIXI)
          * @constant
          * @name TRANSFORM_MODE
          * @memberof PIXI
-         * @type {object}
+         * @enum {number}
          * @deprecated since 5.0.0
          * @property {number} STATIC
          * @property {number} DYNAMIC

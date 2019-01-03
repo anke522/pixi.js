@@ -16,8 +16,8 @@ export default class TextMetrics
      * @param {PIXI.TextStyle} style - the style that was measured
      * @param {number} width - the measured width of the text
      * @param {number} height - the measured height of the text
-     * @param {array} lines - an array of the lines of text broken by new lines and wrapping if specified in style
-     * @param {array} lineWidths - an array of the line widths for each line matched to `lines`
+     * @param {string[]} lines - an array of the lines of text broken by new lines and wrapping if specified in style
+     * @param {number[]} lineWidths - an array of the line widths for each line matched to `lines`
      * @param {number} lineHeight - the measured line height for this style
      * @param {number} maxLineWidth - the maximum line width for all measured lines
      * @param {Object} fontProperties - the font properties object from TextMetrics.measureFont
@@ -426,7 +426,7 @@ export default class TextMetrics
      *
      * @private
      * @param  {string}  text       The text
-     * @return {array}  A tokenized array
+     * @return {string[]}  A tokenized array
      */
     static tokenize(text)
     {

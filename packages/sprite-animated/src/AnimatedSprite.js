@@ -38,7 +38,7 @@ import { Ticker, UPDATE_PRIORITY } from '@pixi/ticker';
 export default class AnimatedSprite extends Sprite
 {
     /**
-     * @param {PIXI.Texture[]|PIXI.extras.AnimatedSprite.FrameObject[]} textures - An array of {@link PIXI.Texture} or frame
+     * @param {PIXI.Texture[]|PIXI.AnimatedSprite.FrameObject[]} textures - An array of {@link PIXI.Texture} or frame
      *  objects that make up the animation.
      * @param {boolean} [autoUpdate=true] - Whether to use PIXI.Ticker.shared to auto update animation time.
      */

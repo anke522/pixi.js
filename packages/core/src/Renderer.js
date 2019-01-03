@@ -239,7 +239,7 @@ export default class Renderer extends AbstractRenderer
 
     /**
      * Add a new system to the renderer.
-     * @param {class} ClassRef - Class reference
+     * @param {Function} ClassRef - Class reference
      * @param {string} [name] - Property name for system, if not specified
      *        will use a static `name` property on the class itself. This
      *        name will be assigned as s property on the Renderer so make

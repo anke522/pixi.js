@@ -40,7 +40,7 @@ export default class Point
      * Copies x and y from the given point
      *
      * @param {PIXI.PointLike} p - The point to copy from
-     * @returns {this} Returns itself.
+     * @returns {PIXI.PointLike} Returns itself.
      */
     copyFrom(p)
     {
@@ -53,7 +53,7 @@ export default class Point
      * Copies x and y into the given point
      *
      * @param {PIXI.PointLike} p - The point to copy.
-     * @returns {this} Given point with values updated
+     * @returns {PIXI.PointLike} Given point with values updated
      */
     copyTo(p)
     {

@@ -14,7 +14,7 @@ const tempMatrix = new Matrix();
  *
  * @abstract
  * @class
- * @extends EventEmitter
+ * @extends PIXI.utils.EventEmitter
  * @memberof PIXI
  */
 export default class AbstractRenderer extends EventEmitter

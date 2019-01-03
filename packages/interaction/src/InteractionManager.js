@@ -32,7 +32,7 @@ const hitTestEvent = {
  * An instance of this class is automatically created by default, and can be found at renderer.plugins.interaction
  *
  * @class
- * @extends EventEmitter
+ * @extends PIXI.utils.EventEmitter
  * @memberof PIXI.interaction
  */
 export default class InteractionManager extends EventEmitter

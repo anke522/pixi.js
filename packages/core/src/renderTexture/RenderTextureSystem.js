@@ -27,7 +27,7 @@ export default class RenderTextureSystem extends System
         // TODO move this property somewhere else!
         /**
          * List of masks for the StencilSystem
-         * @member {Array}
+         * @member {PIXI.Graphics[]}
          * @readonly
          */
         this.defaultMaskStack = [];

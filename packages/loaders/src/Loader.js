@@ -175,11 +175,11 @@ Loader.registerPlugin(TextureLoader);
  * Plugin to be installed for handling specific Loader resources.
  *
  * @memberof PIXI
- * @typedef {object} LoaderPlugin
- * @property {function} [plugin.add] - Function to call immediate after registering plugin.
- * @property {PIXI.Loader.loaderMiddleware} [plugin.pre] - Middleware function to run before load, the
+ * @typedef LoaderPlugin
+ * @property {function} [add] - Function to call immediate after registering plugin.
+ * @property {PIXI.Loader.loaderMiddleware} [pre] - Middleware function to run before load, the
  *           arguments for this are `(resource, next)`
- * @property {PIXI.Loader.loaderMiddleware} [plugin.use] - Middleware function to run after load, the
+ * @property {PIXI.Loader.loaderMiddleware} [use] - Middleware function to run after load, the
  *           arguments for this are `(resource, next)`
  */
 

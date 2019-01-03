@@ -8,7 +8,7 @@ import Bounds from './Bounds';
  * This is an abstract class and should not be used on its own rather it should be extended.
  *
  * @class
- * @extends EventEmitter
+ * @extends PIXI.utils.EventEmitter
  * @memberof PIXI
  */
 export default class DisplayObject extends EventEmitter

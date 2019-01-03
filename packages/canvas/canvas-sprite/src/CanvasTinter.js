@@ -274,9 +274,12 @@ const CanvasTinter = {
      * The tinting method that will be used.
      *
      * @memberof PIXI.CanvasTinter
-     * @type {tintMethodFunctionType}
+     * @type {Function}
      */
-    tintMethod: 0,
+    tintMethod: () =>
+    { // jslint-disable no-empty-function
+
+    },
 };
 
 CanvasTinter.tintMethod = CanvasTinter.canUseMultiply ? CanvasTinter.tintWithMultiply : CanvasTinter.tintWithPerPixel;

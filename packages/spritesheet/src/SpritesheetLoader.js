@@ -9,7 +9,7 @@ import Spritesheet from './Spritesheet';
  * Texture resources.
  * @class
  * @memberof PIXI
- * @extends PIXI.Loader.LoaderPlugin
+ * @implements PIXI.LoaderPlugin
  */
 export default class SpritesheetLoader
 {

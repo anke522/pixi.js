@@ -452,6 +452,7 @@ export default class Container extends DisplayObject
      * Recalculates the bounds of the object. Override this to
      * calculate the bounds of the specific object (not including children).
      *
+     * @protected
      */
     _calculateBounds()
     {
