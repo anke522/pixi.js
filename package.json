@@ -11,7 +11,7 @@
     "test": "floss --path test",
     "unit-test": "floss --path test",
     "docs": "mkdirp dist && jsdoc -c jsdoc.conf.json -R README.md",
-    "types": "mkdirp dist && jsdoc -c jsdoc-types.conf.json",
+    "types": "mkdirp dist && jsdoc -c types/jsdoc.json",
     "lint": "eslint *.js test bundles packages tools --ignore-path .gitignore --max-warnings 0",
     "lintfix": "npm run lint -- --fix",
     "prebuild": "npm run clean:build",
