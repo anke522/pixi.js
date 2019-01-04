@@ -1,7 +1,5 @@
 declare namespace PIXI {
     export interface Loader extends utils.EventEmitter {
-        constructor(baseUrl?: string, concurrency?: number);
-
         baseUrl: string;
         progress: number;
         loading: boolean;
@@ -65,8 +63,6 @@ declare namespace PIXI {
     }
 
     export interface LoaderResource {
-        constructor(name: string, url: string | string[], options?: ILoaderOptions);
-
         name: string;
         url: string;
         extension: string;
