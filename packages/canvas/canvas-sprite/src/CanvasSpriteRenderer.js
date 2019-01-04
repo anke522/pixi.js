@@ -5,6 +5,11 @@ import CanvasTinter from './CanvasTinter';
 const canvasRenderWorldTransform = new Matrix();
 
 /**
+ * Types that can be passed to drawImage
+ * @typedef {HTMLImageElement | HTMLCanvasElement | HTMLVideoElement | ImageBitmap} ICanvasImageSource
+ */
+
+/**
  * @author Mat Groves
  *
  * Big thanks to the very clever Matt DesLauriers <mattdesl> https://github.com/mattdesl/

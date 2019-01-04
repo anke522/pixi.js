@@ -12,4 +12,16 @@ declare namespace PIXI {
     export class CubeTexture {
         static from(resources: string|HTMLImageElement|HTMLCanvasElement|SVGElement|HTMLVideoElement, options?: any): BaseTexture;
     }
+
+    class BitmapText extends PIXI.Container {
+        // REPLACE constructor
+        constructor(text: string, style: {
+            font: string | {
+                name?: string;
+                size?: number;
+            };
+            align?: string;
+            tint?: number;
+        });
+    }
 }

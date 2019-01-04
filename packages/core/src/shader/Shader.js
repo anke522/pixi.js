@@ -77,6 +77,11 @@ class Shader
         this.uniformGroup = null;
     }
 
+    /**
+     * Shader uniform values, shortcut for `uniformGroup.uniforms`
+     * @readonly
+     * @member {object}
+     */
     get uniforms()
     {
         return this.uniformGroup.uniforms;
